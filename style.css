@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+header {
+  align-content: center;
+}
+header > p {
+  text-align: center;
+  color:#00DD00;
+
+  font-weight: bold;
+  font-size: 36px;
+  margin:0 auto ;
+}
+
+body{
+  width: 1200px;
+  margin:auto;
+  background-image: url(background.jpg);
+  background-size: 100%;
+}
+
+/*contiene tutti gli elementi di body*/
+.container{
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 18px;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  margin-top: 2%;
+}
+
+.logo{
+  margin: 0 auto;
+  display: block;
+  width: 25%;
+}
+
+/*con questo selettore vado a selezionare la singola classe menu altrimenti questa
+formattazione si applica anche ai bottoni */
+[class="menu"]{
+  background-color: #00DD00;
+  text-align: center;
+
+}
+.menu.bottoni{
+  padding-top:10px;
+  padding-bottom: 10px;
+
+}
+
+.nome.monopattino{
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+
+}
+
+.indirizzo.monopattino{
+  font-size: 14px;
+  color: rgba(255,255,255,0.8);
+  line-height: 21px;
+}
+
+/*formattazione in comune a tutte le barre di carica*/
+.carica {
+  height: 30px;
+  border-radius: 6px;
+}
+
+/*formattazione indivudale per ogni barra di carica*/
+#Gino22{
+  background-color: #F5B453;
+  width: 25%;
+}
+
+#Mike24{
+  background-color: #00DD00;
+  width:45%;
+}
+#Fede154{
+  background-color: #BE4141;
+  width: 12%;
+}
